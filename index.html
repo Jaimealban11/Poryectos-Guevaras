@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Proyectos Guevaras</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Proyectos Guevaras</h1>
+      <p>Participa por un iPhone 13, 14, 15 o 16 por solo $1</p>
+    </header>
+
+    <section class="prize">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/IPhone_13_Pro_vector.svg/2048px-IPhone_13_Pro_vector.svg.png" alt="Premio iPhone" />
+    </section>
+
+    <section class="progress-section">
+      <h2>Boletos Vendidos</h2>
+      <div class="progress-container">
+        <div class="progress-bar" id="progress-bar" style="width: 0%;"></div>
+      </div>
+      <p id="progress-text">0 / 10000 boletos vendidos</p>
+    </section>
+
+    <section class="buy">
+      <button onclick="buyTicket()">Comprar boleto</button>
+    </section>
+
+    <footer>
+      <p>El sorteo se realizará cuando se vendan los 10,000 boletos.</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
